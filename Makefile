@@ -34,6 +34,10 @@ mypy:
 test:
 	poetry run pytest tests --cov=src --cov-report term-missing --durations 5
 
+.PHONY: lab
+lab:
+	poetry run jupyter lab --ip=`hostname`
+
 .PHONY: format
 format:
 	$(MAKE) black
