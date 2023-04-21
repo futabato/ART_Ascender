@@ -26,6 +26,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
+adversarial-robustness-toolbox = "^1.14.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.1.0"
