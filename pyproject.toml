@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "ascender"
-version = "0.1.0"
-description = "Project template for XCCV group of cvpaper.challenge."
+name = "art-ascender"
+version = "0.1.1"
+description = "Project template for Adversarial Robustness Toolbox"
 license = "MIT"
-authors = ["cvpaper.challenge XCCV group"]
-maintainers = ["yoshihiro fukuhara <gatheluck@gmail.com>"]
+authors = ["futabato"]
+maintainers = ["futabato <01futabato10@gmail.com>"]
 readme = "README.md"
 keywords = [
     "ascender",
